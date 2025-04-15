@@ -1,3 +1,5 @@
+"""Functions to merge two sources of plain-text data into a single dataframe"""
+
 import pandas as pd 
 import os
 
