@@ -1,3 +1,5 @@
+"""Functions to split TIFs into individual vignettes"""
+
 import pandas as pd
 import os
 import cv2
@@ -33,7 +35,7 @@ def extract_vignettes(data_path, source_dir, output_dir, extracted_particles_pat
             image = cv2.imread(file_path)
             
             # Extract the vignette based on the specified coordinates and dimensions
-            x, y, h, w = row["Image.X"], row["Image.Y"], row["Image.Height"], row["Image.Width"]
+            x, y, h, w = int(row["Image.X"]), int(row["Image.Y"]), int(row["Image.Height"]), int(row["Image.Width"])
             vignette = image[y:y+h, x:x+w]
             
             # Create a unique particle ID
