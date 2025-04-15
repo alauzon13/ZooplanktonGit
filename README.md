@@ -33,7 +33,7 @@ This project was developed with Tensorflow, Keras, and Sci-kit Learn.
 From [Onedrive](https://utoronto-my.sharepoint.com/:f:/g/personal/vianey_leosbarajas_utoronto_ca/ElpxgGCqDHtJjFml4UJnD_QBPH7a3ijH_NCV-btbCNvbbw?e=qG1M9a), download the HURON_OverlapTiffsWithPP folder, including the HURONOverlap_csv sub-folder. Access may be required. Email adele.lauzon@mail.utoronto.ca with any questions about data access.
 
 ## Usage   
-The full project pipeline is outlined in the notebook FullPipeline.ipynb. This is what was used to train and test the full models. Because the models take up to 3 hours to converge, a Mini Example was also created to provide an easier way to interact with the project. The notebook and necessary files for this are in MiniExample. 
+The full project pipeline is outlined in the notebook FullPipeline.ipynb. For a more readable version with trimmed outputs, see FullPipeline_trimmed.ipynb. This is what was used to train and test the full models. Because the models take up to 3 hours to converge, a Mini Example was also created to provide an easier way to interact with the project. The notebook and necessary files for this are in MiniExample. 
 
 ## Credits 
 

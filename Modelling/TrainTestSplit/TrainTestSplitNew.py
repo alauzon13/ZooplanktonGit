@@ -1,3 +1,5 @@
+"""Splitting image and text data into train/test/validation. Here we also oversample and generate augmented images."""
+
 import os
 import numpy as np
 import time
