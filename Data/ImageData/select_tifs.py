@@ -1,3 +1,5 @@
+"""Move required TIF files from parent directory to a new folder."""
+
 import pandas as pd
 import os
 import shutil
