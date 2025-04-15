@@ -1,3 +1,5 @@
+"""Script to select subsample of data from Lake Huron"""
+
 import pandas as pd
 import random
 import os
